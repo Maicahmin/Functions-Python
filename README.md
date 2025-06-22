@@ -6,7 +6,7 @@ Reference the function 3 times with different values
 
 -------------------------------------------------------------------------------------
 
-def grades (name, math, english, science):
+    def grades (name, math, english, science):
 
     sum = math + english + science
     
@@ -14,8 +14,8 @@ def grades (name, math, english, science):
     
     print(f"{name}'s grade (math = {math} english = {english} science grade = {science} and the average is: {average}" )
 
-grades("hakdog", 90, 75, 80)
+    grades("hakdog", 90, 75, 80)
 
-grades("itlog", 99,100, 98)
+    grades("itlog", 99,100, 98)
 
-grades("chimken", 81,85,82
+    grades("chimken", 81,85,82
